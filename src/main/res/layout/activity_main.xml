@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.devicemanagement.MainActivity">
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!" />
+
+    <Button
+        android:id="@+id/upgrade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textview"
+        android:text="@string/upgrade" />
+    <Button
+        android:id="@+id/uploadLog"
+        android:layout_below="@+id/upgrade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/upload"/>
+
+    <Button
+        android:id="@+id/takephoto"
+        android:layout_below="@+id/uploadLog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/takephoto"/>
+
+    <EditText
+        android:id="@+id/ip_text"
+        android:layout_below="@+id/takephoto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ip"/>
+
+    <Button
+        android:id="@+id/confirm"
+        android:layout_below="@+id/ip_text"
+        android:layout_width="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_height="wrap_content"
+        android:text="@string/confirm_ip"/>
+
+    <Button
+        android:id="@+id/send_cans"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/upgrade"
+        android:layout_alignBottom="@+id/upgrade"
+        android:layout_toEndOf="@+id/upgrade"
+        android:text="@string/send_can" />
+</RelativeLayout>

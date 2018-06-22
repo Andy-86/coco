@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">COBO</string>
+    <string name="upgrade">自动升级</string>
+    <string name="upload">上传日志</string>
+    <string name="takephoto">拍照上传</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="Startbutton">开始</string>
+    <string name="Stopbutton">停止</string>
+    <string name="Exitbutton">返回</string>
+    <string name="title_activity_start">Rtmp推流</string>
+    <string name="StartRtmpPush">开始推流</string>
+    <string name="PlayRtmpString">开始播放</string>
+    <string name="SwitchCamera">切换相机</string>
+    <string name="confirm_ip">确定更改</string>
+    <string name="send_can">开启接收CAN信息</string>
+</resources>
